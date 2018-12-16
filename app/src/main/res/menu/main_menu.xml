@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/CrearE"
+          android:icon="@drawable/ic_add"
+          android:title="Crear"
+          app:showAsAction="always"
+    />
+    <item android:id="@+id/DeleteE"
+          android:icon="@drawable/ic_delete"
+          android:title="Eliminar"
+          app:showAsAction="ifRoom"
+    />
+
+    <item android:id="@+id/Tabu"
+          android:icon="@drawable/ic_tabulo"
+          android:title="Tabular"
+          app:showAsAction="ifRoom"
+    />
+</menu>

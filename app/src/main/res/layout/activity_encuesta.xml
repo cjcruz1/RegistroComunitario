@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:context=".EncuestaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/pregConstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Preguntas por contestar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/counterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="x"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1) Here Goes Question1"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
